@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.local.json
+.DS_Store
+logs/
+docs/evidence/.rows-*.jsonl
+docs/notes/.request-counts.jsonl
+docs/evidence/*-local-test-*

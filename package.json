@@ -1,0 +1,29 @@
+{
+  "name": "graphql-rest-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Companion lab for the Back4app blog post 'GraphQL vs REST Performance: The Same App Screens, Tested': the same five app screens fetched through the platform's auto-generated GraphQL API and its REST API on one backend and one dataset — request counts, bytes and wall time measured under pre-registered equivalence margins, never asserted.",
+  "license": "MIT",
+  "author": "Back4app Engineering",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev:server": "node scripts/dev-server.mjs",
+    "setup": "node scripts/setup.mjs",
+    "seed": "node scripts/seed.mjs",
+    "equivalence": "node scripts/equivalence.mjs",
+    "parity": "node scripts/parity.mjs",
+    "cursor": "node scripts/cursor-verify.mjs",
+    "measure": "node scripts/measure.mjs",
+    "budget": "node scripts/budget-inventory.mjs",
+    "pretest": "node scripts/evidence.mjs --reset",
+    "test": "node --test --test-concurrency=1 'test/*.test.mjs'",
+    "posttest": "node scripts/evidence.mjs"
+  },
+  "devDependencies": {
+    "express": "^5.1.0",
+    "parse-server": "^7.5.4"
+  }
+}
