@@ -1,0 +1,7 @@
+measurement,cell,run,orderInPair,failed,ms,requests,reqBytes,respHeaderBytes,respBodyBytes,wireUp,wireDown
+m5,s5-rest,0,second,0,433.03,1,385,1134,40,385,1174
+m5,s5-gql,0,first,0,425.32,1,572,1056,80,572,1136
+m5,s5-rest,1,first,0,490.05,1,385,1134,40,385,1174
+m5,s5-gql,1,second,0,405.45,1,572,1056,80,572,1136
+m5,s5-rest,2,second,0,406.75,1,385,1134,40,385,1174
+m5,s5-gql,2,first,0,402.62,1,572,1056,80,572,1136
