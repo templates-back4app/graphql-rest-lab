@@ -1,0 +1,111 @@
+{
+  "cells": {
+    "s1-gql": {
+      "requests": 1,
+      "respBodyBytes": 1354,
+      "wireDown": 1601,
+      "wireUp": 542
+    },
+    "s1-rest": {
+      "requests": 1,
+      "respBodyBytes": 1430,
+      "wireDown": 2106,
+      "wireUp": 269
+    },
+    "s2-gql": {
+      "requests": 1,
+      "respBodyBytes": 2110,
+      "wireDown": 2357,
+      "wireUp": 765
+    },
+    "s2-rest-include1": {
+      "requests": 1,
+      "respBodyBytes": 13684,
+      "wireDown": 14362,
+      "wireUp": 553
+    },
+    "s2-rest-include2": {
+      "requests": 2,
+      "respBodyBytes": 7061,
+      "wireDown": 8413,
+      "wireUp": 737
+    },
+    "s2-rest-naive": {
+      "requests": 22,
+      "respBodyBytes": 7581,
+      "wireDown": 22413,
+      "wireUp": 6296
+    },
+    "s3-gql": {
+      "requests": 1,
+      "respBodyBytes": 9453,
+      "wireDown": 9701,
+      "wireUp": 491
+    },
+    "s3-rest-full": {
+      "requests": 1,
+      "respBodyBytes": 143549,
+      "wireDown": 144229,
+      "wireUp": 287
+    },
+    "s3-rest-keys": {
+      "requests": 1,
+      "respBodyBytes": 16332,
+      "wireDown": 17010,
+      "wireUp": 312
+    },
+    "s4-gql-deep-cumulative": {
+      "requests": 10,
+      "respBodyBytes": 135525,
+      "wireDown": 138015,
+      "wireUp": 6050
+    },
+    "s4-gql-deep-cursor": {
+      "requests": 1,
+      "respBodyBytes": 13529,
+      "wireDown": 13778,
+      "wireUp": 608
+    },
+    "s4-gql-page1": {
+      "requests": 1,
+      "respBodyBytes": 13124,
+      "wireDown": 13373,
+      "wireUp": 582
+    },
+    "s4-rest-deep-cumulative": {
+      "requests": 10,
+      "respBodyBytes": 163968,
+      "wireDown": 170748,
+      "wireUp": 3208
+    },
+    "s4-rest-deep-offset": {
+      "requests": 1,
+      "respBodyBytes": 16332,
+      "wireDown": 17010,
+      "wireUp": 321
+    },
+    "s4-rest-page1": {
+      "requests": 1,
+      "respBodyBytes": 16332,
+      "wireDown": 17010,
+      "wireUp": 312
+    },
+    "s5-gql": {
+      "requests": 1,
+      "respBodyBytes": 80,
+      "wireDown": 324,
+      "wireUp": 520
+    },
+    "s5-rest": {
+      "requests": 1,
+      "respBodyBytes": 40,
+      "wireDown": 713,
+      "wireUp": 339
+    }
+  },
+  "date": "2026-11-03T12:41:13.848Z",
+  "deepPage": 10,
+  "equivalencePassRequests": 73,
+  "listRows": 100,
+  "target": "local"
+}
